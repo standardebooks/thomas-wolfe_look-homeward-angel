@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
@@ -36,21 +37,6 @@ section[epub|type~="dedication"] > *{
 	hyphens: none;
 	-epub-hyphens: none;
 }
-
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	font-style: normal;
-	font-variant: small-caps;
-	margin-top: 1em;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
 /* End all epigraphs */
 
 /* Full-page epigraphs */
@@ -80,29 +66,32 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
 }
 /* End full-page epigraphs */
 
 /* Begin verse */
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p,
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span,
 [epub|type~="z3998:poem"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br,
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
 }
 
+[epub|type~="z3998:song"] p + p,
 [epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
 }
@@ -118,6 +107,45 @@ p span.i2{
 }
 /* End verse */
 
+/* Begin letters */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+p[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* End letters */
+
+/* Begin italicized lang attributes */
+blockquote[xml|lang],
+p[xml|lang],
+blockquote span[xml|lang]{
+	font-style: italic;
+}
+/* End italicized lang attributes */
+
+/* Begin internal thoughts */
+q{
+	font-style: italic;
+}
+/* End internal thoughts */
+
+/* |********************|**
+	=== Custom CSS ===	
+**|********************| */
 /* Begin custom dedication */
 section[id=dedication]{
 	font-style: italic;
@@ -133,3 +161,14 @@ section[id=foreword] > p{
 	font-style: italic;
 }
 /* End custom foreword */
+
+/* Begin custom css */
+section[id="chapter-13"] > blockquote,
+section[id="chapter-17"] > blockquote[epub|type="z3998:song"] > p{
+	text-align: center;
+}
+
+section[id="chapter-13"] > blockquote span{
+	text-transform: uppercase;
+}
+/* End custom css */

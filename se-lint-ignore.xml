@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-19.xhtml">
+		<ignore>
+			<code>y-029</code>
+			<reason>Emphasis is applied to an individual syllable of "limited" and "actuality."</reason>
+		</ignore>
+	</file>
+	<file path="chapter-23.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>These poems and songs are identified by the first lines of their verse and thus should not be titlecased.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-33.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>This song title is correctly titlecased.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
