@@ -3,7 +3,7 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* Centered dedications */
-section[epub|type~="dedication"]{
+section[epub|type~="dedication"] > p{
 	text-align: center;
 }
 
@@ -29,13 +29,18 @@ section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
-/* End centered dedications */
 
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
 	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -143,26 +148,36 @@ q{
 }
 /* End internal thoughts */
 
-/* |********************|**
-	=== Custom CSS ===	
-**|********************| */
-/* Begin custom dedication */
+/* ****************** */
+/* === Custom CSS === */
+/* ****************** */
+/* Dedication */
 #dedication{
 	font-style: italic;
 }
 
-#dedication blockquote{
-	margin-top: 1em;
+#dedication > *{
+	display: block;
 }
-/* End custom dedication */
 
-/* Begin custom foreword */
+#dedication blockquote{
+	margin-top: 3em;
+	width: fit-content;
+}
+/* End dedication */
+
+/* Epigraph */
+#epigraph-2 p{
+	text-indent: 1em;
+}
+/* End epigraph */
+
+/* Foreword */
 #foreword p{
 	font-style: italic;
 }
-/* End custom foreword */
+/* End foreword */
 
-/* Begin custom css */
 #chapter-13 blockquote,
 #chapter-17 blockquote[epub|type="z3998:song"] p{
 	text-align: center;
@@ -171,4 +186,3 @@ q{
 #chapter-13 > blockquote span{
 	text-transform: uppercase;
 }
-/* End custom css */
