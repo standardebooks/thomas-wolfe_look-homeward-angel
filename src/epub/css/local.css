@@ -147,28 +147,28 @@ q{
 	=== Custom CSS ===	
 **|********************| */
 /* Begin custom dedication */
-section[id=dedication]{
+#dedication{
 	font-style: italic;
 }
 
-section[id=dedication] > p + blockquote{
+#dedication blockquote{
 	margin-top: 1em;
 }
 /* End custom dedication */
 
 /* Begin custom foreword */
-section[id=foreword] > p{
+#foreword p{
 	font-style: italic;
 }
 /* End custom foreword */
 
 /* Begin custom css */
-section[id="chapter-13"] > blockquote,
-section[id="chapter-17"] > blockquote[epub|type="z3998:song"] > p{
+#chapter-13 blockquote,
+#chapter-17 blockquote[epub|type="z3998:song"] p{
 	text-align: center;
 }
 
-section[id="chapter-13"] > blockquote span{
+#chapter-13 > blockquote span{
 	text-transform: uppercase;
 }
 /* End custom css */
