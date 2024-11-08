@@ -176,6 +176,10 @@ q{
 #foreword p{
 	font-style: italic;
 }
+
+#foreword i{
+	font-style: normal;
+}
 /* End foreword */
 
 #chapter-13 blockquote,
