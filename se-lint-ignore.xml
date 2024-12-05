@@ -15,7 +15,7 @@
 	<file path="chapter-33.xhtml">
 		<ignore>
 			<code>t-064</code>
-			<reason>This song title is correctly titlecased.</reason>
+			<reason>"K-K-K-Katy Beautiful Katy" is correctly titlecased.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
