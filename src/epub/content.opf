@@ -28,43 +28,50 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Look Homeward, Angel</dc:title>
 		<meta property="file-as" refines="#title">Look Homeward, Angel</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Story of the Buried Life</dc:title>
+		<meta property="file-as" refines="#subtitle">Story of the Buried Life, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Look Homeward, Angel: A Story of the Buried Life</dc:title>
+		<meta property="file-as" refines="#fulltitle">Look Homeward, Angel</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Mountain life -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Boys -- Fiction</dc:subject>
+		<dc:subject id="subject-2">North Carolina -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh2008107235</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2007101907</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008108376</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A young man struggles to find his identity and purpose while navigating family tensions, love, and the longing for freedom in a small Southern town.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Look Homeward, Angel&lt;/i&gt; is a seminal coming-of-age novel that explores the life of Oliver Gant, a complex and passionate protagonist born into a tumultuous Southern family in the late 19th century. Set in the fictional mountain town of Altamont, North Carolina, the novel begins with Oliver’s father, an English immigrant named Gilbert Gant, who arrives in America with a restless spirit and dreams of reinvention. The book opens with Oliver’s early years, painting a vivid portrait of a young man caught between the harsh realities of post-Civil War Southern life and his own profound inner yearnings. The narrative captures the raw, overwhelming emotions of youth, the struggle for personal identity, and the intense desire to break free from familial and societal constraints.&lt;/p&gt;
+			&lt;p&gt;Later in the novel, Oliver’s son, Eugene, emerges as the central character, embodying the profound internal struggles of an aspiring writer seeking to break free from his provincial roots. Unlike Oliver, Eugene represents a more fully realized version of the protagonist, deeply introspective and burning with artistic ambition. His journey is marked by an intense exploration of self, grappling with the tension between his small-town background and his expansive intellectual and creative dreams. Through Eugene, Wolfe explores themes of alienation, artistic yearning, and the painful process of self-discovery, drawing deeply from his own experiences of growing up in the South and ultimately seeking to transcend the limitations of his familial and cultural origins.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-wolfe"&gt;Thomas Wolfe’s&lt;/a&gt; debut novel is a landmark work of American literature, deeply rooted in autobiographical elements and considered a quintessential bildungsroman of the early 20th century. Published in 1929, the book was revolutionary in its time for its expansive, lyrical prose style and its unflinching exploration of personal and family history. Wolfe drew heavily from his own experiences growing up in Asheville, North Carolina, transforming his personal struggles into a universal story of artistic awakening and human complexity. The novel emerged during a pivotal time in American literature, when writers were seeking to break away from traditional narrative structures and explore more intimate, stream-of-consciousness approaches to storytelling.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Look Homeward, Angel&lt;/i&gt; is considered a critical work in 20th-century American literature, notable for its innovative narrative structure and profound autobiographical elements. The novel was the result of an intensive collaboration between Wolfe and his editor Maxwell Perkins at Scribner’s, who helped distill Wolfe’s original manuscript from an unwieldy 300,000-word draft to its published form by cutting approximately 60,000 words. Upon publication, the book received significant critical acclaim for its lyrical prose and intimate portrayal of Southern life. It substantially influenced subsequent generations of American writers, particularly in its approach to autobiographical fiction and stream-of-consciousness narrative techniques. The work is recognized as a seminal text in Southern literature, offering a nuanced exploration of individual identity, familial relationships, and the psychological landscape of early 20th-century America. Its title, drawn from John Milton’s poem “Lycidas,” symbolizes the protagonist’s perpetual state of yearning and search for meaning, a theme that resonates throughout the narrative and has cemented the novel’s place in the canon of American literary modernism.&lt;/p&gt;
+			&lt;p&gt;Wolfe saw only two of his novels published during his brief lifetime. He died at the young age of 37, just nine years after the publication of &lt;i&gt;Look Homeward, Angel&lt;/i&gt;. At the time of his death, he left behind two completed manuscripts with his publisher, which were subsequently published posthumously.&lt;/p&gt;
+			&lt;p&gt;Ketti Frings created a critically acclaimed Broadway adaptation of &lt;i&gt;Look Homeward, Angel&lt;/i&gt;, which premiered in 1957 and ran for 564 performances. Her theatrical adaptation won the Pulitzer Prize for Drama and received multiple Tony Award nominations across various categories.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-US</dc:language>
+		<dc:source>https://catalog.hathitrust.org/Record/101866520</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Look_Homeward,_Angel</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-wolfe_look-homeward-angel</meta>
 		<dc:creator id="author">Thomas Wolfe</dc:creator>
 		<meta property="file-as" refines="#author">Wolfe, Thomas</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Thomas Clayton Wolfe</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Wolfe</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79054341</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#artist">Anonymous</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Brendan Fattig</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Fattig, Brendan</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://brendanny.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
