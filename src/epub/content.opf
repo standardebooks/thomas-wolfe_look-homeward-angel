@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/thomas-wolfe/look-homeward-angel</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-01-01T09:01:00Z</dc:date>
+		<meta property="dcterms:modified">2025-01-01T09:01:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -37,7 +37,7 @@
 		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Mountain life -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Boys -- Fiction</dc:subject>
-		<dc:subject id="subject-2">North Carolina -- Fiction</dc:subject>
+		<dc:subject id="subject-3">North Carolina -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008107235</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
@@ -47,17 +47,15 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A young man struggles to find his identity and purpose while navigating family tensions, love, and the longing for freedom in a small Southern town.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Look Homeward, Angel&lt;/i&gt; is a seminal coming-of-age novel that explores the life of Oliver Gant, a complex and passionate protagonist born into a tumultuous Southern family in the late 19th century. Set in the fictional mountain town of Altamont, North Carolina, the novel begins with Oliver’s father, an English immigrant named Gilbert Gant, who arrives in America with a restless spirit and dreams of reinvention. The book opens with Oliver’s early years, painting a vivid portrait of a young man caught between the harsh realities of post-Civil War Southern life and his own profound inner yearnings. The narrative captures the raw, overwhelming emotions of youth, the struggle for personal identity, and the intense desire to break free from familial and societal constraints.&lt;/p&gt;
-			&lt;p&gt;Later in the novel, Oliver’s son, Eugene, emerges as the central character, embodying the profound internal struggles of an aspiring writer seeking to break free from his provincial roots. Unlike Oliver, Eugene represents a more fully realized version of the protagonist, deeply introspective and burning with artistic ambition. His journey is marked by an intense exploration of self, grappling with the tension between his small-town background and his expansive intellectual and creative dreams. Through Eugene, Wolfe explores themes of alienation, artistic yearning, and the painful process of self-discovery, drawing deeply from his own experiences of growing up in the South and ultimately seeking to transcend the limitations of his familial and cultural origins.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-wolfe"&gt;Thomas Wolfe’s&lt;/a&gt; debut novel is a landmark work of American literature, deeply rooted in autobiographical elements and considered a quintessential bildungsroman of the early 20th century. Published in 1929, the book was revolutionary in its time for its expansive, lyrical prose style and its unflinching exploration of personal and family history. Wolfe drew heavily from his own experiences growing up in Asheville, North Carolina, transforming his personal struggles into a universal story of artistic awakening and human complexity. The novel emerged during a pivotal time in American literature, when writers were seeking to break away from traditional narrative structures and explore more intimate, stream-of-consciousness approaches to storytelling.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Look Homeward, Angel&lt;/i&gt; is considered a critical work in 20th-century American literature, notable for its innovative narrative structure and profound autobiographical elements. The novel was the result of an intensive collaboration between Wolfe and his editor Maxwell Perkins at Scribner’s, who helped distill Wolfe’s original manuscript from an unwieldy 300,000-word draft to its published form by cutting approximately 60,000 words. Upon publication, the book received significant critical acclaim for its lyrical prose and intimate portrayal of Southern life. It substantially influenced subsequent generations of American writers, particularly in its approach to autobiographical fiction and stream-of-consciousness narrative techniques. The work is recognized as a seminal text in Southern literature, offering a nuanced exploration of individual identity, familial relationships, and the psychological landscape of early 20th-century America. Its title, drawn from John Milton’s poem “Lycidas,” symbolizes the protagonist’s perpetual state of yearning and search for meaning, a theme that resonates throughout the narrative and has cemented the novel’s place in the canon of American literary modernism.&lt;/p&gt;
-			&lt;p&gt;Wolfe saw only two of his novels published during his brief lifetime. He died at the young age of 37, just nine years after the publication of &lt;i&gt;Look Homeward, Angel&lt;/i&gt;. At the time of his death, he left behind two completed manuscripts with his publisher, which were subsequently published posthumously.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Look Homeward, Angel&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/thomas-wolfe"&gt;Thomas Wolfe’s&lt;/a&gt; debut novel, is a coming-of-age novel that follows the life of Oliver Gant and his family in the fictional town of Altamont, North Carolina. The story begins with Oliver’s early years, capturing the struggles of post-Civil War Southern life. Later, the focus shifts to Eugene, Oliver’s son, an aspiring writer torn between his artistic ambition and his small-town roots.&lt;/p&gt;
+			&lt;p&gt;The novel is a foundational work of Southern American literature, considered by many a viable contender for the “Great American Novel.” Wolfe drew extensively from his personal experiences growing up in Asheville, North Carolina, and many of the themes of Wolfe’s own life—like family, identity, and artistic exploration—are reflected in Eugene’s struggles.&lt;/p&gt;
+			&lt;p&gt;The novel was the result of close collaboration between Wolfe and his editor at Scribner’s, Maxwell Perkins. Perkins helped distill Wolfe’s original manuscript from an unwieldy 300,000 words to a publishable state, cutting 60,000 words and shifting the primary focus to Eugene.&lt;/p&gt;
 			&lt;p&gt;Ketti Frings created a critically acclaimed Broadway adaptation of &lt;i&gt;Look Homeward, Angel&lt;/i&gt;, which premiered in 1957 and ran for 564 performances. Her theatrical adaptation won the Pulitzer Prize for Drama and received multiple Tony Award nominations across various categories.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://catalog.hathitrust.org/Record/101866520</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">222171</meta>
+		<meta property="se:reading-ease.flesch">73.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Look_Homeward,_Angel</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-wolfe_look-homeward-angel</meta>
 		<dc:creator id="author">Thomas Wolfe</dc:creator>
@@ -78,6 +76,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
