@@ -151,7 +151,6 @@ q{
 /* ****************** */
 /* === Custom CSS === */
 /* ****************** */
-/* Dedication */
 #dedication{
 	font-style: italic;
 }
@@ -162,25 +161,11 @@ q{
 
 #dedication blockquote{
 	margin-top: 3em;
-	width: fit-content;
 }
-/* End dedication */
 
-/* Epigraph */
 #epigraph-2 p{
-	text-indent: 1em;
+	text-indent: 0;
 }
-/* End epigraph */
-
-/* Foreword */
-#foreword p{
-	font-style: italic;
-}
-
-#foreword i{
-	font-style: normal;
-}
-/* End foreword */
 
 #chapter-13 blockquote,
 #chapter-17 blockquote[epub|type="z3998:song"] p{
@@ -188,5 +173,5 @@ q{
 }
 
 #chapter-13 > blockquote span{
-	text-transform: uppercase;
+	font-variant: small-caps;
 }
