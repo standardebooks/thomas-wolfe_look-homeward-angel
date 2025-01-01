@@ -12,10 +12,4 @@
 			<reason>These poems and songs are identified by the first lines of their verse and thus should not be titlecased.</reason>
 		</ignore>
 	</file>
-	<file path="chapter-33.xhtml">
-		<ignore>
-			<code>t-064</code>
-			<reason>"K-K-K-Katy Beautiful Katy" is correctly titlecased.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
