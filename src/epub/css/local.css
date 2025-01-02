@@ -164,7 +164,7 @@ q{
 }
 
 #epigraph-2 p{
-	text-indent: 0;
+	text-indent: 1em;
 }
 
 #chapter-13 blockquote,
