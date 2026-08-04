@@ -47,7 +47,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008108376</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>A young man struggles to find his identity and purpose while navigating family tensions, love, and the longing for freedom in a small Southern town.</dc:abstract>
+		<meta property="schema:abstract">A young man struggles to find his identity and purpose while navigating family tensions, love, and the longing for freedom in a small Southern town.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Look Homeward, Angel&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/thomas-wolfe"&gt;Thomas Wolfe’s&lt;/a&gt; debut novel, is a coming-of-age novel that follows the life of Oliver Gant and his family in the fictional town of Altamont, North Carolina. The story begins with Oliver’s early years, capturing the struggles of post-Civil War Southern life. Later, the focus shifts to Eugene, Oliver’s son, an aspiring writer torn between his artistic ambition and his small-town roots.&lt;/p&gt;
 			&lt;p&gt;The novel is a foundational work of Southern American literature, considered by many a viable contender for the “Great American Novel.” Wolfe drew extensively from his personal experiences growing up in Asheville, North Carolina, and many of the themes of Wolfe’s own life—like family, identity, and artistic exploration—are reflected in Eugene’s struggles.&lt;/p&gt;
